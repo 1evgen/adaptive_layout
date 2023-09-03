@@ -605,6 +605,7 @@ ul.footer__social {
         font-size: 12px;
         margin-bottom: 9px;
     }
+
 }
 
 @media (max-width: 640px) {
@@ -741,6 +742,12 @@ ul.footer__social {
         gap: 25px 40px;
     }
 }
+@media (max-width: 450px) {
+    .courses__content{
+        grid-template-columns: auto;
+    }
+
+}
 
 @media (max-width: 404px) {
     .steps__list{
@@ -753,6 +760,7 @@ ul.footer__social {
         width: 66px;
         object-fit: cover;
     }
+
 
 }
 @media (max-width: 360px) {
@@ -841,5 +849,6 @@ ul.footer__social {
     .steps__item-text{
         font-size: 6px;
     }
+
 
 }
